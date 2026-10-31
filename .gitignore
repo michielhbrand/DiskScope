@@ -1,0 +1,10 @@
+/bin/
+/dist/
+*.test
+fixture-*
+coverage.out
+*.prof
+.DS_Store
+.idea/
+.vscode/
+*.swp
