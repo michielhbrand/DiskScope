@@ -53,11 +53,13 @@ go run . ~/Downloads
 
 ## Install
 
-Install the binary into `~/.local/bin` (override with `PREFIX=/usr/local`):
-
 ```sh
+git clone https://github.com/michielhbrand/DiskScope.git
+cd DiskScope
 make install
 ```
+
+This installs the binary into `~/.local/bin` (override with `PREFIX=/usr/local`).
 
 Make sure `~/.local/bin` is on your `PATH`, then run `diskscope`. For a short
 command that scans the current directory:
